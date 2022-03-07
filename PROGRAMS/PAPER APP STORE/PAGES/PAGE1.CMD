@@ -198,7 +198,7 @@ goto start
 if !sel! EQU 8 (
 
 cls
-start.bat
+START.BAT
 
 )
 if !sel! EQU 9 (
