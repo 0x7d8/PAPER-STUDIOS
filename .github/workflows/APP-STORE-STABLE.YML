@@ -2,7 +2,7 @@ name: ZIP
 
 on:
   release:
-    types: [published]
+    types: [workflow_dispatch]
 
 jobs:
   zip-files:
