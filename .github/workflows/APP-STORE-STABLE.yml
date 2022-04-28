@@ -13,3 +13,4 @@ jobs:
         directory: 'PROGRAMS/PAPER-APP-STORE'
         filename: 'STABLE.ZIP'
         exclusions: ''
+
