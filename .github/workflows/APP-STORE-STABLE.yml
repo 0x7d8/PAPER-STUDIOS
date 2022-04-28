@@ -4,11 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  zip-files:
+  ZIP:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: papeloto/action-zip@v1
-        with:
-          files: PROGRAMS/PAPER-APP-STORE/SOURCES/
-          dest: PROGRAMS/PAPER-APP-STORE/APPSTABLE.ZIP
+    - uses: montudor/action-zip@v1
+    with:
+    args: zip -qq -r PROGRAMS/PAPER-APP-STORE/STABLE.ZIP PROGRAMS/PAPER-APP-STORE/SOURCES/
