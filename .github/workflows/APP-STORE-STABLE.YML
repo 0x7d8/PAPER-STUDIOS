@@ -1,8 +1,7 @@
 name: ZIP
 
 on:
-  release:
-    types: [workflow_dispatch]
+  workflow_dispatch:
 
 jobs:
   zip-files:
