@@ -11,4 +11,4 @@ jobs:
       - uses: papeloto/action-zip@v1
         with:
           files: PROGRAMS/PAPER-APP-STORE/SOURCES
-          dest: PROGRAMS/PAPER-APP-STORE/APPSTABLE
+          dest: PROGRAMS/PAPER-APP-STORE/APPSTABLE.ZIP
